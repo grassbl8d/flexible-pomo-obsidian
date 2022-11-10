@@ -316,7 +316,7 @@ export class PomoSettingTab extends PluginSettingTab {
 
 			new Setting(containerEl)
 			.setName("Show active note in status bar")
-			.setDesc("In the status bar, show active note that pomodor was started in.")
+			.setDesc("In the status bar, show active note that pomodoro was started in.")
 			.addToggle(toggle => toggle
 					.setValue(this.plugin.settings.showActiveNoteInTimer)
 					.onChange(value => {
